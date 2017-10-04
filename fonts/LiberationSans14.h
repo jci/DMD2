@@ -45,7 +45,7 @@
 #define LIBERATIONSANS14_WIDTH 10
 #define LIBERATIONSANS14_HEIGHT 15
 
-static uint8_t LiberationSans14[] PROGMEM = {
+const uint8_t LiberationSans14[] PROGMEM = {
     0x23, 0x8E, // size
     0x0A, // width
     0x0F, // height

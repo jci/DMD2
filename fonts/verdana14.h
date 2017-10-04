@@ -39,13 +39,13 @@
 #include <inttypes.h>
 #include <avr/pgmspace.h>
 
-#ifndef NEW_FONT_H
-#define NEW_FONT_H
+#ifndef VERDANA_14_H
+#define VERDANA_14_H
 
 #define NEW_FONT_WIDTH 10
 #define NEW_FONT_HEIGHT 15
 
-static uint8_t new_Font[] PROGMEM = {
+const uint8_t new_Font[] PROGMEM = {
     0x2A, 0xE1, // size
     0x0A, // width
     0x0F, // height
